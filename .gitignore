@@ -1,0 +1,14 @@
+# secrets - never commit these
+.env
+*.pem
+
+# generated data
+market_shm.bin
+capture.jsonl
+capture.jsonl.gz
+capture.parquet
+market.duckdb
+
+# python junk
+__pycache__/
+*.pyc
